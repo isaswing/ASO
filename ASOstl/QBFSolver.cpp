@@ -328,12 +328,10 @@ bool QBFSolver::WriteDLP(TSmallStr &formula, char *insert, char *aggre)
     {
         return false;
     }
-    f.Print("./data/DLPCNF.txt");
     if (f.NegCNF() == false)
     {
         return false;
     }
-    f.Print("./data/DLPDNF.txt");
     //translate to DLP and print out to DLP.lp
     if (f.DNFtoDLP(numAtom) == false)
     {
