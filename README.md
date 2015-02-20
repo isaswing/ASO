@@ -34,7 +34,7 @@ Copyright (c) Ying Zhu (isaswing AT gmail DOT com)
 
 Only tested in Windows but code should be easily ported to Linux systems.
 
-To build ASO, you need to first install [re2c](http://rec2.org) in your
+To build ASO, you need to first install [re2c](http://re2c.org) in your
 system. Modify the re2c path in MAKEFILE. Then just `make`.
 
 To run ASO, you need to place following binary files under the `bin/` folder:
@@ -84,12 +84,12 @@ dataset: [1|2|3]
 - 2: dataset 2
 - 3: dataset 3
 
-dis: [sim|dis] (This argument should only be used when `problem=3`)
+dis: [sim|dis] This argument should only be used when `problem=3`.
 
 - sim: Finding a dissimilar optimal answer set
 - dis: Finding a similar optimal answer set
 	 
-distance: [0..10] (This argument should only be used when `problem=3`)
+distance: [0..10] This argument should only be used when `problem=3`.
      
 - If `dis=sim`, it means finding an optimal answer set whose distance from the
   given answer set is smaller than or equal to distance*nAtoms/10.
