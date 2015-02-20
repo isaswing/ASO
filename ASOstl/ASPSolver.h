@@ -9,7 +9,7 @@ using namespace std;
 //---------------------------------------------------------------------------
 #include "StrUtils.h"
 #include "FileIO.h"
-#include "TimerInterval_win.h"
+#include "TimerInterval.h"
 //---------------------------------------------------------------------------
 extern int solveMode;  //1: clingo;2:gringo+clasp;3:gringo+claspD;4:gringo+claspD2
 class ASPSolver

@@ -1,4 +1,4 @@
-*ASO: Answer Set Optimization*
+# ASO: Answer Set Optimization #
 
 This program implements the answer set optimization problem. It accepts ASP
 constraints and preferences, computes optimal answer sets with Pareto principle
@@ -30,12 +30,11 @@ This code is published for research purpose only.
 
 Copyright (c) Ying Zhu (isaswing AT gmail DOT com)
 
-**REQUIREMENTS**
-
-Only tested in Windows but code should be easily ported to Linux systems.
+# REQUIREMENTS #
 
 To build ASO, you need to first install [re2c](http://re2c.org) in your
-system. Modify the re2c path in MAKEFILE. Then just `make`.
+system. Modify the re2c path in MAKEFILE. Then on Windows, you can just run
+`make`. For Linux, you need to run `OS=LINUX make`.
 
 To run ASO, you need to place following binary files under the `bin/` folder:
 
@@ -45,7 +44,7 @@ To run ASO, you need to place following binary files under the `bin/` folder:
 - [claspD2](http://www.cs.uni-potsdam.de/claspD/) Rev. 6814
 - [dlv](http://www.dlvsystem.com/dlv/) dlv-2012-12-17
 
-**USAGE**
+# USAGE #
 
 `./ASO solver method problem dataset [sim|dis distance]`
 
@@ -96,7 +95,7 @@ distance: [0..10] This argument should only be used when `problem=3`.
 - If `dis=dis`, it means finding an optimal answer set whose distance from the
   given answer set is greater than or equal to distance*nAtoms/10.
 
-**EXAMPLES**
+# EXAMPLES #
 
 `./ASO 1 1 1 1`
 
@@ -109,7 +108,7 @@ Given an answer set, using disjunctive logic programming method to find a
 similar optimal answer set (distance is smaller than or equal to 50% of the
 number of atoms) for dataset 2 with claspD2 as the solver.
 
-**CITATION**
+# CITATION #
 
 You need to cite the following paper if using this code:
 
