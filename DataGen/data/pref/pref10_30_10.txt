@@ -1,0 +1,30 @@
+not atom5 > atom5 :- not atom4.
+atom2 > not atom2.
+atom1 > not atom1 :- not atom3.
+not atom4 > atom4.
+not atom9 > atom9 :- not atom5, atom6.
+atom6 > not atom6.
+atom6 > not atom6.
+atom5 > not atom5.
+atom10 > not atom10 :- not atom3.
+not atom6 > atom6.
+atom1 > not atom1 :- not atom4, atom3.
+not atom7 > atom7.
+atom2 > not atom2.
+atom10 > not atom10 :- atom3, not atom5.
+atom7 > not atom7 :- not atom2.
+not atom5 > atom5 :- atom3.
+atom5 > not atom5.
+atom1 > not atom1.
+atom3 > not atom3.
+not atom4 > atom4 :- not atom10, atom2.
+atom3 > not atom3 :- not atom10, not atom6.
+atom4 > not atom4.
+not atom7 > atom7 :- not atom3.
+not atom6 > atom6.
+not atom7 > atom7 :- atom4.
+atom4 > not atom4.
+not atom7 > atom7.
+not atom3 > atom3 :- atom9.
+not atom7 > atom7 :- not atom5.
+not atom7 > atom7 :- not atom6, not atom4.

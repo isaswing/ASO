@@ -1,0 +1,600 @@
+not atom180 > atom180 :- atom97.
+not atom171 > atom171.
+atom190 > not atom190 :- atom176, atom71.
+not atom22 > atom22 :- atom6, atom143.
+not atom182 > atom182 :- atom188.
+not atom77 > atom77 :- atom46.
+not atom164 > atom164 :- not atom194, atom163.
+atom28 > not atom28.
+atom3 > not atom3.
+atom52 > not atom52.
+not atom81 > atom81 :- not atom10, not atom61.
+not atom190 > atom190 :- not atom8, not atom200.
+atom165 > not atom165 :- not atom16, not atom32.
+atom146 > not atom146.
+atom73 > not atom73 :- atom177, not atom62.
+atom120 > not atom120.
+atom113 > not atom113 :- atom135, atom47.
+not atom105 > atom105.
+not atom33 > atom33.
+not atom189 > atom189.
+atom179 > not atom179 :- not atom161, atom176.
+not atom132 > atom132.
+not atom107 > atom107 :- not atom42.
+atom197 > not atom197.
+atom196 > not atom196.
+atom49 > not atom49.
+atom44 > not atom44 :- atom187, not atom45.
+atom45 > not atom45.
+atom151 > not atom151 :- atom100.
+atom157 > not atom157 :- not atom145, not atom185.
+atom179 > not atom179 :- not atom2.
+atom11 > not atom11.
+atom49 > not atom49.
+atom69 > not atom69 :- atom53.
+atom28 > not atom28 :- atom47.
+not atom73 > atom73 :- not atom31, not atom67.
+atom162 > not atom162 :- atom52, not atom160.
+not atom30 > atom30.
+not atom154 > atom154 :- not atom94.
+atom85 > not atom85.
+atom30 > not atom30.
+atom104 > not atom104 :- not atom48.
+atom86 > not atom86 :- atom155, atom89.
+not atom139 > atom139 :- atom188, atom171.
+atom187 > not atom187 :- atom46, atom3.
+not atom137 > atom137 :- atom196.
+atom48 > not atom48.
+not atom149 > atom149.
+atom157 > not atom157.
+not atom37 > atom37.
+not atom46 > atom46.
+not atom28 > atom28 :- not atom158, not atom151.
+not atom78 > atom78 :- not atom22.
+atom152 > not atom152 :- not atom110.
+not atom54 > atom54.
+atom110 > not atom110 :- atom66, not atom158.
+atom141 > not atom141.
+not atom150 > atom150 :- not atom111.
+not atom112 > atom112.
+not atom112 > atom112.
+atom148 > not atom148 :- atom41.
+not atom124 > atom124 :- not atom68.
+not atom62 > atom62.
+not atom35 > atom35.
+not atom142 > atom142 :- not atom161.
+atom143 > not atom143.
+atom191 > not atom191 :- not atom105.
+atom64 > not atom64 :- not atom112, atom186.
+not atom55 > atom55 :- atom122.
+atom82 > not atom82 :- atom167.
+not atom136 > atom136.
+atom170 > not atom170.
+atom170 > not atom170.
+atom87 > not atom87 :- not atom200.
+atom127 > not atom127 :- atom153, atom136.
+not atom23 > atom23 :- atom44.
+not atom17 > atom17.
+not atom96 > atom96 :- not atom21, not atom77.
+atom113 > not atom113 :- not atom186, not atom173.
+not atom133 > atom133 :- atom160, not atom108.
+not atom16 > atom16 :- atom74, atom157.
+not atom165 > atom165.
+atom188 > not atom188 :- not atom48, atom98.
+not atom196 > atom196.
+not atom85 > atom85 :- atom194.
+atom169 > not atom169 :- atom50.
+atom25 > not atom25.
+atom65 > not atom65 :- not atom199.
+not atom125 > atom125 :- atom143, atom134.
+not atom80 > atom80 :- not atom130, not atom180.
+atom94 > not atom94 :- atom30.
+not atom30 > atom30 :- not atom40.
+not atom112 > atom112.
+not atom192 > atom192.
+atom143 > not atom143 :- atom93, atom8.
+atom195 > not atom195 :- not atom197, atom99.
+not atom119 > atom119 :- not atom196.
+atom71 > not atom71.
+not atom144 > atom144.
+not atom80 > atom80 :- atom195, atom131.
+not atom45 > atom45 :- atom92.
+not atom13 > atom13.
+not atom36 > atom36.
+not atom121 > atom121 :- not atom71, atom90.
+atom105 > not atom105 :- atom17, not atom197.
+not atom119 > atom119 :- atom118, atom74.
+atom131 > not atom131 :- not atom160.
+atom183 > not atom183 :- not atom84, not atom137.
+atom35 > not atom35.
+atom97 > not atom97 :- atom160, atom148.
+not atom75 > atom75.
+atom138 > not atom138 :- atom76, not atom52.
+not atom16 > atom16 :- atom19, atom51.
+not atom129 > atom129 :- not atom188.
+not atom100 > atom100.
+not atom116 > atom116 :- not atom47, not atom53.
+atom32 > not atom32 :- not atom161.
+not atom177 > atom177.
+atom146 > not atom146.
+not atom26 > atom26 :- not atom52.
+atom11 > not atom11 :- atom190, not atom102.
+atom104 > not atom104 :- not atom8.
+not atom194 > atom194.
+atom5 > not atom5 :- not atom129.
+not atom38 > atom38.
+atom156 > not atom156.
+not atom2 > atom2 :- atom5, atom173.
+atom28 > not atom28.
+atom128 > not atom128.
+atom180 > not atom180.
+not atom135 > atom135 :- atom79, atom116.
+atom179 > not atom179 :- not atom176, atom169.
+atom43 > not atom43.
+not atom160 > atom160.
+not atom110 > atom110.
+atom131 > not atom131.
+not atom99 > atom99.
+not atom139 > atom139.
+not atom12 > atom12 :- not atom112, not atom6.
+not atom196 > atom196.
+not atom167 > atom167 :- not atom67.
+atom156 > not atom156 :- not atom72.
+atom5 > not atom5.
+atom87 > not atom87 :- atom25.
+not atom118 > atom118 :- atom174.
+atom177 > not atom177 :- atom10, not atom154.
+not atom98 > atom98.
+not atom38 > atom38.
+not atom73 > atom73 :- atom156, atom158.
+atom168 > not atom168.
+atom13 > not atom13 :- atom82.
+atom152 > not atom152 :- not atom151, atom61.
+atom146 > not atom146 :- atom98.
+atom146 > not atom146 :- atom67.
+not atom2 > atom2.
+atom64 > not atom64.
+not atom191 > atom191.
+atom68 > not atom68.
+atom109 > not atom109.
+not atom61 > atom61 :- not atom55, not atom37.
+not atom41 > atom41.
+atom122 > not atom122.
+not atom73 > atom73.
+atom28 > not atom28.
+not atom63 > atom63 :- not atom135, not atom53.
+atom90 > not atom90 :- atom118.
+atom141 > not atom141 :- not atom23.
+not atom164 > atom164.
+atom106 > not atom106 :- not atom28, not atom8.
+atom164 > not atom164.
+not atom22 > atom22.
+atom197 > not atom197 :- not atom76.
+not atom70 > atom70 :- not atom179, not atom142.
+atom6 > not atom6.
+not atom147 > atom147.
+atom128 > not atom128 :- atom151, atom20.
+not atom133 > atom133 :- atom143, atom79.
+atom177 > not atom177 :- not atom18.
+atom10 > not atom10 :- atom121, not atom4.
+atom13 > not atom13 :- not atom103.
+not atom126 > atom126.
+not atom48 > atom48.
+not atom115 > atom115 :- atom17, atom18.
+not atom173 > atom173 :- atom39.
+atom54 > not atom54.
+atom41 > not atom41 :- atom28.
+not atom99 > atom99 :- atom170, not atom131.
+not atom115 > atom115 :- atom15.
+atom160 > not atom160 :- atom48, not atom139.
+atom34 > not atom34 :- not atom12.
+atom140 > not atom140.
+not atom61 > atom61.
+not atom136 > atom136 :- atom130.
+atom167 > not atom167 :- not atom58.
+atom111 > not atom111.
+atom17 > not atom17 :- atom73.
+not atom69 > atom69 :- not atom15, not atom99.
+atom104 > not atom104 :- atom143, atom181.
+atom153 > not atom153 :- not atom61, atom27.
+not atom198 > atom198.
+atom71 > not atom71.
+not atom115 > atom115 :- not atom76.
+not atom108 > atom108.
+not atom87 > atom87 :- atom109.
+atom23 > not atom23.
+atom44 > not atom44 :- atom137, not atom96.
+not atom120 > atom120 :- atom44, atom71.
+atom54 > not atom54 :- not atom176.
+atom197 > not atom197 :- atom160, not atom24.
+atom7 > not atom7.
+not atom85 > atom85.
+not atom90 > atom90.
+not atom192 > atom192.
+atom70 > not atom70 :- not atom54.
+atom177 > not atom177 :- atom2.
+atom134 > not atom134 :- not atom128, not atom155.
+atom148 > not atom148 :- atom43.
+atom171 > not atom171.
+not atom12 > atom12.
+not atom84 > atom84 :- atom186.
+atom160 > not atom160.
+not atom129 > atom129.
+not atom65 > atom65 :- not atom187, not atom140.
+atom102 > not atom102.
+not atom59 > atom59 :- atom11.
+not atom99 > atom99.
+not atom128 > atom128 :- atom112, not atom43.
+not atom120 > atom120 :- not atom16, atom83.
+not atom98 > atom98.
+not atom89 > atom89.
+atom16 > not atom16.
+atom41 > not atom41 :- not atom26, not atom151.
+not atom26 > atom26 :- atom105.
+atom137 > not atom137.
+not atom88 > atom88.
+atom159 > not atom159.
+not atom91 > atom91.
+not atom57 > atom57.
+not atom117 > atom117.
+not atom26 > atom26 :- atom120.
+not atom122 > atom122.
+not atom27 > atom27.
+atom48 > not atom48.
+atom11 > not atom11 :- atom61.
+atom75 > not atom75 :- atom57.
+atom79 > not atom79.
+atom124 > not atom124 :- atom117.
+not atom167 > atom167.
+not atom18 > atom18.
+not atom187 > atom187.
+atom132 > not atom132 :- atom30.
+not atom9 > atom9 :- atom140, atom193.
+atom151 > not atom151.
+atom174 > not atom174 :- not atom104, atom191.
+atom25 > not atom25.
+atom161 > not atom161.
+atom68 > not atom68 :- atom155.
+atom79 > not atom79.
+atom32 > not atom32.
+not atom90 > atom90 :- atom138.
+not atom79 > atom79.
+atom53 > not atom53 :- not atom155, atom199.
+not atom78 > atom78 :- atom23, not atom22.
+atom32 > not atom32.
+not atom173 > atom173.
+atom72 > not atom72 :- atom128, not atom45.
+not atom3 > atom3 :- atom166, not atom169.
+atom159 > not atom159.
+not atom108 > atom108 :- atom71, atom49.
+not atom108 > atom108 :- not atom26.
+atom49 > not atom49 :- not atom81, atom174.
+not atom50 > atom50.
+atom46 > not atom46.
+atom43 > not atom43.
+not atom74 > atom74 :- atom57, not atom50.
+not atom130 > atom130 :- atom26.
+not atom152 > atom152.
+atom156 > not atom156 :- atom115.
+not atom82 > atom82.
+not atom128 > atom128 :- not atom125, atom42.
+not atom160 > atom160 :- atom137, not atom80.
+not atom5 > atom5 :- atom163, atom126.
+atom29 > not atom29.
+not atom198 > atom198 :- atom130, atom83.
+atom171 > not atom171.
+not atom140 > atom140 :- not atom88.
+not atom84 > atom84.
+atom115 > not atom115 :- not atom74.
+not atom97 > atom97 :- not atom63.
+atom192 > not atom192.
+not atom14 > atom14.
+not atom42 > atom42 :- not atom118, atom172.
+not atom138 > atom138 :- not atom111, atom112.
+not atom186 > atom186.
+atom42 > not atom42 :- not atom113, not atom13.
+not atom168 > atom168 :- atom10.
+not atom66 > atom66.
+atom38 > not atom38.
+atom192 > not atom192 :- atom7, not atom104.
+not atom28 > atom28 :- atom27.
+atom156 > not atom156.
+atom29 > not atom29 :- atom5.
+not atom51 > atom51 :- not atom90.
+atom160 > not atom160.
+atom170 > not atom170 :- not atom161, not atom31.
+not atom97 > atom97.
+atom79 > not atom79.
+not atom178 > atom178 :- atom168.
+atom193 > not atom193.
+atom144 > not atom144.
+atom144 > not atom144.
+atom200 > not atom200.
+atom12 > not atom12 :- not atom33, not atom48.
+not atom186 > atom186 :- not atom175, atom173.
+atom164 > not atom164 :- atom14, atom37.
+atom82 > not atom82 :- not atom191, not atom91.
+not atom63 > atom63.
+atom139 > not atom139.
+atom171 > not atom171 :- not atom184.
+not atom161 > atom161 :- atom5, not atom154.
+not atom39 > atom39.
+not atom85 > atom85 :- not atom49.
+not atom74 > atom74 :- atom131, atom198.
+atom135 > not atom135.
+atom48 > not atom48.
+atom129 > not atom129 :- atom103.
+atom124 > not atom124 :- atom148.
+not atom19 > atom19 :- atom29.
+atom98 > not atom98 :- not atom123, not atom20.
+not atom119 > atom119.
+atom45 > not atom45.
+not atom174 > atom174.
+atom114 > not atom114.
+atom121 > not atom121 :- atom84, atom77.
+atom131 > not atom131.
+not atom161 > atom161.
+not atom80 > atom80 :- atom193.
+atom40 > not atom40.
+not atom165 > atom165 :- atom157.
+not atom129 > atom129.
+not atom105 > atom105.
+atom54 > not atom54.
+not atom55 > atom55.
+atom152 > not atom152.
+atom68 > not atom68 :- not atom184.
+not atom169 > atom169.
+atom82 > not atom82 :- not atom61, atom176.
+atom66 > not atom66.
+not atom134 > atom134.
+atom96 > not atom96 :- atom25.
+not atom29 > atom29.
+atom103 > not atom103.
+not atom114 > atom114 :- not atom143, atom199.
+not atom26 > atom26 :- atom139, not atom194.
+not atom54 > atom54.
+not atom140 > atom140 :- atom192, not atom135.
+atom24 > not atom24 :- not atom50, atom115.
+atom159 > not atom159.
+not atom103 > atom103.
+atom108 > not atom108 :- not atom80, atom134.
+atom96 > not atom96.
+atom153 > not atom153.
+atom159 > not atom159 :- not atom117.
+not atom103 > atom103.
+atom21 > not atom21 :- not atom120.
+atom143 > not atom143.
+not atom27 > atom27.
+atom146 > not atom146 :- not atom8, not atom70.
+not atom19 > atom19 :- not atom121, atom1.
+not atom26 > atom26 :- atom159.
+atom160 > not atom160.
+not atom159 > atom159.
+atom119 > not atom119.
+not atom168 > atom168 :- atom83, not atom169.
+not atom2 > atom2 :- atom142, atom196.
+not atom194 > atom194.
+not atom25 > atom25.
+atom94 > not atom94 :- not atom18, not atom168.
+not atom161 > atom161 :- atom148, atom88.
+atom54 > not atom54 :- not atom88.
+atom21 > not atom21.
+not atom192 > atom192.
+atom115 > not atom115.
+atom82 > not atom82.
+atom33 > not atom33.
+not atom169 > atom169.
+not atom166 > atom166.
+not atom126 > atom126.
+not atom110 > atom110.
+not atom148 > atom148.
+not atom89 > atom89 :- atom75.
+atom196 > not atom196.
+atom58 > not atom58 :- atom52, not atom64.
+atom14 > not atom14.
+not atom67 > atom67.
+atom86 > not atom86.
+atom146 > not atom146.
+not atom179 > atom179 :- atom89, atom182.
+not atom86 > atom86 :- atom23, atom159.
+not atom68 > atom68.
+atom146 > not atom146.
+not atom92 > atom92.
+not atom70 > atom70 :- not atom11, not atom126.
+atom21 > not atom21 :- atom153.
+not atom8 > atom8 :- not atom76.
+not atom35 > atom35 :- not atom65, not atom15.
+atom197 > not atom197.
+not atom65 > atom65 :- atom199, not atom160.
+not atom109 > atom109 :- not atom35, not atom149.
+not atom18 > atom18.
+atom126 > not atom126.
+not atom118 > atom118.
+atom129 > not atom129.
+not atom198 > atom198.
+not atom62 > atom62 :- not atom83, not atom58.
+atom87 > not atom87 :- atom164.
+not atom25 > atom25 :- atom192, atom174.
+not atom115 > atom115.
+atom144 > not atom144.
+not atom126 > atom126 :- not atom155.
+atom25 > not atom25 :- not atom26, atom52.
+not atom176 > atom176 :- atom88, not atom143.
+atom38 > not atom38.
+not atom122 > atom122 :- atom14.
+atom180 > not atom180 :- not atom32.
+atom180 > not atom180.
+not atom69 > atom69 :- not atom138, not atom11.
+atom93 > not atom93 :- not atom37, not atom49.
+not atom13 > atom13.
+not atom179 > atom179 :- atom4.
+not atom75 > atom75 :- not atom79.
+not atom39 > atom39.
+atom62 > not atom62 :- atom56, atom108.
+not atom102 > atom102 :- not atom2, atom7.
+not atom79 > atom79.
+not atom90 > atom90 :- not atom147.
+atom200 > not atom200.
+atom58 > not atom58.
+atom198 > not atom198 :- atom27.
+atom76 > not atom76 :- not atom19, not atom92.
+not atom128 > atom128 :- not atom32, not atom41.
+atom81 > not atom81.
+not atom188 > atom188.
+atom145 > not atom145.
+not atom1 > atom1 :- atom66, not atom30.
+not atom126 > atom126.
+atom148 > not atom148 :- atom171.
+atom163 > not atom163 :- not atom101.
+not atom161 > atom161.
+atom32 > not atom32.
+atom37 > not atom37 :- atom83, not atom26.
+atom177 > not atom177.
+atom182 > not atom182 :- not atom85, atom169.
+atom66 > not atom66 :- not atom58, atom189.
+not atom134 > atom134.
+not atom119 > atom119 :- not atom198.
+atom47 > not atom47 :- not atom20, atom14.
+not atom65 > atom65.
+atom65 > not atom65 :- atom95, atom194.
+not atom82 > atom82 :- not atom154.
+atom78 > not atom78 :- atom187.
+atom71 > not atom71.
+not atom115 > atom115.
+atom132 > not atom132.
+not atom149 > atom149.
+atom93 > not atom93 :- not atom10.
+not atom33 > atom33.
+atom131 > not atom131.
+atom118 > not atom118 :- not atom104, not atom150.
+atom5 > not atom5.
+not atom152 > atom152.
+atom73 > not atom73 :- atom129.
+atom159 > not atom159 :- not atom34, not atom121.
+atom146 > not atom146 :- not atom150, not atom75.
+atom195 > not atom195 :- atom13.
+atom130 > not atom130.
+atom127 > not atom127 :- not atom12, atom167.
+not atom67 > atom67.
+atom86 > not atom86.
+not atom151 > atom151.
+atom138 > not atom138 :- not atom164.
+not atom138 > atom138.
+atom136 > not atom136 :- not atom81, atom67.
+not atom57 > atom57.
+not atom123 > atom123.
+atom17 > not atom17 :- not atom54.
+not atom134 > atom134 :- atom193.
+not atom41 > atom41.
+not atom71 > atom71.
+atom59 > not atom59.
+atom74 > not atom74 :- not atom48.
+not atom180 > atom180 :- atom193.
+atom89 > not atom89 :- atom84.
+atom56 > not atom56 :- atom186, not atom86.
+atom171 > not atom171.
+not atom4 > atom4 :- atom12, not atom155.
+not atom8 > atom8.
+atom67 > not atom67.
+atom183 > not atom183.
+atom141 > not atom141.
+not atom103 > atom103 :- atom73, atom176.
+atom149 > not atom149 :- not atom44.
+atom73 > not atom73 :- atom149, atom182.
+atom53 > not atom53.
+not atom174 > atom174 :- not atom59, atom199.
+atom179 > not atom179 :- atom159, atom39.
+atom97 > not atom97.
+not atom28 > atom28.
+not atom147 > atom147 :- not atom189, not atom81.
+not atom194 > atom194 :- not atom75.
+not atom116 > atom116 :- atom146, atom139.
+atom200 > not atom200.
+atom114 > not atom114 :- not atom180, not atom163.
+not atom38 > atom38 :- atom66, atom30.
+not atom11 > atom11.
+not atom155 > atom155 :- not atom173, atom104.
+atom174 > not atom174.
+atom140 > not atom140 :- not atom80.
+not atom172 > atom172.
+not atom72 > atom72 :- atom199.
+atom138 > not atom138 :- atom191, not atom145.
+atom200 > not atom200 :- atom7, not atom158.
+atom53 > not atom53.
+not atom43 > atom43 :- atom106.
+not atom116 > atom116.
+not atom141 > atom141 :- not atom123, not atom118.
+atom43 > not atom43 :- atom163, not atom136.
+not atom186 > atom186 :- atom90.
+not atom184 > atom184 :- atom7.
+atom92 > not atom92 :- not atom76, atom192.
+atom155 > not atom155 :- atom110.
+atom71 > not atom71 :- not atom136, not atom15.
+atom2 > not atom2 :- atom151, not atom59.
+not atom137 > atom137.
+atom37 > not atom37.
+atom95 > not atom95 :- not atom41, not atom134.
+not atom198 > atom198.
+not atom172 > atom172 :- atom139.
+atom95 > not atom95.
+atom70 > not atom70.
+atom156 > not atom156.
+not atom100 > atom100 :- not atom123, atom172.
+not atom148 > atom148.
+not atom82 > atom82 :- atom198.
+atom133 > not atom133 :- not atom180.
+not atom147 > atom147 :- not atom106.
+atom128 > not atom128 :- atom21.
+not atom131 > atom131 :- atom77.
+not atom80 > atom80.
+not atom184 > atom184.
+not atom158 > atom158 :- not atom79, atom163.
+not atom110 > atom110 :- not atom14.
+not atom103 > atom103 :- atom2.
+not atom66 > atom66 :- atom118, atom70.
+atom142 > not atom142 :- atom146.
+not atom145 > atom145.
+not atom139 > atom139.
+not atom114 > atom114.
+not atom65 > atom65.
+atom163 > not atom163 :- not atom7, not atom16.
+not atom161 > atom161.
+not atom23 > atom23.
+not atom143 > atom143.
+atom98 > not atom98 :- not atom166, atom20.
+not atom4 > atom4 :- not atom21, atom88.
+atom63 > not atom63.
+not atom183 > atom183 :- not atom191.
+not atom102 > atom102 :- not atom184, not atom37.
+atom114 > not atom114 :- not atom85, atom14.
+atom148 > not atom148 :- atom85, not atom91.
+atom88 > not atom88.
+atom53 > not atom53.
+atom186 > not atom186.
+not atom33 > atom33 :- atom44.
+not atom60 > atom60 :- atom190.
+atom74 > not atom74 :- not atom172, not atom72.
+atom53 > not atom53 :- atom67, atom145.
+not atom46 > atom46 :- atom125.
+atom182 > not atom182 :- not atom99.
+not atom183 > atom183.
+not atom48 > atom48 :- atom11.
+atom190 > not atom190.
+atom181 > not atom181 :- atom101, not atom44.
+not atom75 > atom75.
+atom168 > not atom168.
+not atom113 > atom113 :- not atom149.
+atom65 > not atom65 :- not atom137.
+not atom162 > atom162 :- atom43, not atom73.
+atom11 > not atom11.
+atom172 > not atom172 :- not atom191, not atom123.
+not atom197 > atom197 :- not atom187, atom134.
+atom54 > not atom54.
+atom59 > not atom59.
+atom83 > not atom83.
+atom174 > not atom174.
+not atom112 > atom112 :- atom195.
+not atom163 > atom163 :- not atom119, atom2.
+atom103 > not atom103.
+not atom55 > atom55.
+not atom35 > atom35 :- not atom71, atom198.
