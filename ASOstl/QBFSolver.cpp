@@ -89,15 +89,6 @@ bool QBFSolver::ParseTestGen(char *fileName)
             genY.AddFast("&");
         }
     }
-	// file.Open("./data/genX.out");
-	// file.Write(genX(), 1, genX.Len);
-	// file.Close();
-    // file.Open("./data/genXDLP.out");
-    // file.Write(genXDLP(), 1, genXDLP.Len);
-    // file.Close();
-    file.Open("./data/genX.out");
-    file.Write(genX(), 1, genX.Len);
-    file.Close();
     return true;
 }
 //---------------------------------------------------------------------------
