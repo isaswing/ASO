@@ -10,7 +10,7 @@ using namespace std;
 #include "StrUtils.h"
 #include "FileIO.h"
 #include "Formula.h"
-#include "TimerInterval_win.h"
+#include "TimerInterval.h"
 //---------------------------------------------------------------------------
 extern int solveMode; //1: clasp3 2: claspD 3: claspD2 4: dlv
 class QBFSolver

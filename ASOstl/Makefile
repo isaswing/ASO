@@ -1,10 +1,15 @@
 CXX     = g++
 RE2C	= ./bin/re2c
+OS     ?= WIN
 
 CFLAGS	= -Wall -g -fpermissive -I./lib/
 LDFLAGS	= 
 
+ifeq ($(OS),WIN)
 LIBS    = -lwinmm
+else
+LIBS	=
+endif
 
 TARGETS	= ASO
 
