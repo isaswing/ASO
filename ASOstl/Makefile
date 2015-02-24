@@ -1,7 +1,7 @@
 CXX     = g++
 RE2C	= ./bin/re2c
 
-CFLAGS	= -Wall -O2 -fpermissive -I./lib/
+CFLAGS	= -Wall -g -fpermissive -I./lib/
 LDFLAGS	= 
 
 LIBS    = -lwinmm
