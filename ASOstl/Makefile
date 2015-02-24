@@ -2,7 +2,7 @@ CXX     = g++
 RE2C	= ./bin/re2c
 OS     ?= WIN
 
-CFLAGS	= -Wall -g -fpermissive -I./lib/
+CFLAGS	= -Wall -O2 -fpermissive -I./lib/
 LDFLAGS	= 
 
 ifeq ($(OS),WIN)

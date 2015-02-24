@@ -125,12 +125,12 @@ bool Solve(int method, int problem, int dataset, bool dis = false, int dist = 0)
     if (method < 1 || method > 3)
     {
         printf("Please select an available method.\n");
-        return true;        
+        return true;
     }
     if (problem < 1 || problem > 3)
     {
         printf("Please select an available problem to solve.\n");
-        return true;        
+        return true;
     }    
     if (dataset < 1 || dataset > 3)
     {
@@ -299,6 +299,11 @@ bool Solve(int method, int problem, int dataset, bool dis = false, int dist = 0)
 
 int main(int argc, char *argv[])
 {
+    if (argc < 5)
+    {
+        printf("Incorrect arguments!\n");
+        return 1;
+    }
     solveMode = atoi(argv[1]);
     int method = atoi(argv[2]);
     int problem = atoi(argv[3]);
@@ -319,10 +324,10 @@ int main(int argc, char *argv[])
     }
 
 //Test code
-    // solveMode = 1;
+    // solveMode = 3;
     //Using iterative method to find one optimal answer set from the dataset 
     //with one rank.
-    // if (Solve(1, 1, 1) == false)
+    // if (Solve(4, 1, 1) == false)
     // {
     //     return 1;
     // }
@@ -364,7 +369,7 @@ int main(int argc, char *argv[])
     // }    
     //Using disjunctive logic programming by claspD to find one optimal answer 
     //set from the dataset with one rank.
-    // if (Solve(3, 1, 2) == false)
+    // if (Solve(3, 1, 1) == false)
     // {
     //     return 1;
     // }
