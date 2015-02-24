@@ -106,7 +106,8 @@ public:
         }
         if (outDir == NULL)
         {
-        	outDir = "./data/";
+        	// outDir = "./data/";
+            outDir = "./tmp/";
         }
         strcpy(generator, outDir);
         strcat(generator, "gen.lp");
@@ -162,11 +163,10 @@ public:
 
     bool ParseTestGen(char *fileName);
     bool ParsePref();
-    bool ParsePrefRule(const char *&cursor, FileIO &outputTest, FileIO &outputAnoGen, FileIO &outputCalDeg);
-    bool ParseCNF(const char *&cursor, FileIO &outputTest, FileIO &outputAnoGen, FileIO &outputCalDeg);
-    bool ParseDNF(const char *&cursor, FileIO &outputTest, FileIO &outputAnoGen, FileIO &outputCalDeg);
-    bool ParseNegAtom(const char *&cursor, TSmallStr &line);
-    bool ParseBody(const char *&cursor, FileIO &outputTest, FileIO &outputAnoGen, FileIO &outputCalDeg);
+    bool ParsePrefRule(const char *&cursor, TSmallStr &write);
+    bool ParseCNF(const char *&cursor, TSmallStr &write);
+    bool ParseDNF(const char *&cursor, TSmallStr &write);
+    bool ParseBody(const char *&cursor, TSmallStr &write);
 
     bool ParseImp()
     {
@@ -180,7 +180,6 @@ public:
         {
             return true;
         }
-
         FileIO file;
         if (file.Open(inputImp, "rb") == 0)
         {
@@ -193,12 +192,10 @@ public:
             return false;
         }
         file.Close();
-
         if (buff.Buff == NULL || buff.Len == 0)
         {
             return true;
         }
-
         char *start = buff();
         for (int i=0; i<numRule; i++)
         {
@@ -223,14 +220,12 @@ public:
                 start++;
             }
         }
-
         TSmallStr insert;
         insert.Set("");
         for (int i=0; i<numRule; i++)
         {
             insert.Append("level(%d, %d).\n", i+1, impLevels[i]);
         }
-
         if (file.Open(genAnoTXT, "ab") == false)
         {
             return false;
@@ -254,48 +249,63 @@ public:
 
     bool Parse()
     {
-        char *rule = "v0(R, 1) :- rule(R), not body(R).\n"
-                     "v0(R, 1) :- rule(R), not heads(R), body(R).\n"
-                     "#show atom/1.\n"
-                     "#show v0/2.\n";
+        TSmallStr rule;
+        rule.Set("v0(R, 1) :- rule(R), not body(R).\n"
+                 "v0(R, 1) :- rule(R), not heads(R), body(R).\n"
+                 "#show atom/1.\n"
+                 "#show v0/2.\n");
         FileIO file;
-        if (file.Open(testerTXT) == false)
-        {
-            return false;
-        }
-        if (file.Write(rule, 1, strlen(rule)) == false)
-        {
-            return false;
-        }
-        file.Close();
-
+        // if (file.Open(testerTXT) == false)
+        // {
+        //     return false;
+        // }
+        // if (file.Write(rule, 1, strlen(rule)) == false)
+        // {
+        //     return false;
+        // }
+        // file.Close();
         if (file.Open(genAnoTXT) == false)
         {
             return false;
         }
-        rule = "v0(R, 1) :- rule(R), not body(R).\n"
-                 "v0(R, 1) :- rule(R), not heads(R), body(R).\n"
-                 "#show atom/1.\n"
-                 "#show v0/2.\n";
-        if (file.Write(rule, 1, strlen(rule)) == false)
+        // rule = "v0(R, 1) :- rule(R), not body(R).\n"
+        //          "v0(R, 1) :- rule(R), not heads(R), body(R).\n"
+        //          "#show atom/1.\n"
+        //          "#show v0/2.\n";
+        if (file.Write(rule(), 1, rule.Len) == false)
         {
             return false;
         }
         file.Close();
-
         if (file.Open(calDegreeTXT) == false)
         {
             return false;
         }
-        rule = "v0(R, 1) :- rule(R), not body(R).\n"
-                 "v0(R, 1) :- rule(R), not heads(R), body(R).\n"
-                 "#show v0/2.\n";
-        if (file.Write(rule, 1, strlen(rule)) == false)
+        // rule = "v0(R, 1) :- rule(R), not body(R).\n"
+        //          "v0(R, 1) :- rule(R), not heads(R), body(R).\n"
+        //          "#show v0/2.\n";
+        if (file.Write(rule(), 1, rule.Len) == false)
         {
             return false;
         }
         file.Close();
-
+        if (ranked)
+        {
+            rule += rankPrefString;
+        }
+        else
+        {
+            rule += prefString;
+        }
+        if (file.Open(testerTXT) == false)
+        {
+            return false;
+        }
+        if (file.Write(rule(), 1, rule.Len) == false)
+        {
+            return false;
+        }
+        file.Close();
         //if (ParseGen() == false || ParsePref() == false)
         if (ParseTestGen(inputGen) == false || ParsePref() == false)
         {
@@ -334,8 +344,8 @@ public:
     bool CalcuDegree(char *buffer);
     //iterative method
     bool GetOneAS();
-    bool GenTester(char *prevAS, TSmallStr *rule);
-    bool GenTester(vector<int> &degree, TSmallStr *rule);
+    bool GenTester(char *prevAS);
+    bool GenTester(vector<int> &degree);
     int GetBetterAS();
     int GetOneOptAS(char *startAS);
     int GetFirstOptAS(float *time = NULL)

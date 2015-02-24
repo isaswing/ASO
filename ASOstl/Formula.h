@@ -15,7 +15,7 @@ extern int numC;
 class Formula
 {
 public:
-    char *DLPfile = "./data/DLP.lp";
+    char *DLPfile = "./tmp/DLP.lp";
     // char *QBFfile = "./data/QBF.qdimacs";
     TSmallStr formula;
     vector<Formula*> subFormulas;

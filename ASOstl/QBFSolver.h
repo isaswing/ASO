@@ -19,9 +19,9 @@ public:
     char *inputGen;
     char *inputPref;
     char *inputImp;
-    char *DLP = "./data/DLP.lp";
-    char *claspResult = "./data/claspResult.txt";
-    char *dlvResult = "./data/dlvResult.txt";
+    char *DLP = "./tmp/DLP.lp";
+    char *claspResult = "./tmp/claspResult.txt";
+    char *dlvResult = "./tmp/dlvResult.txt";
 
     vector<bool> answerSet;
     vector<int> degree;

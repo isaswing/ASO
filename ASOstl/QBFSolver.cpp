@@ -317,7 +317,8 @@ bool QBFSolver::WriteDLP(TSmallStr &formula, char *insert, char *aggre)
     numD = 0;
     numC = 0;
     dataSet.clear();
-    dataSet.reserve(400000);
+    // dataSet.reserve(400000);
+    dataSet.reserve(5*formula.Len);
     TTimeInterval timer;
     Formula f;
     if (f.Build(formula()) == false)

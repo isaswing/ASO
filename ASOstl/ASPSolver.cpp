@@ -138,7 +138,7 @@ prevAS: the file name of previous result
 rule: the preference constraints (rank or unrank) 
 */
 //---------------------------------------------------------------------------
-bool ASPSolver::GenTester(char *prevAS, TSmallStr *rule)
+bool ASPSolver::GenTester(char *prevAS)
 {
     FileIO prevASFile;
     if (prevASFile.Open(prevAS, "rb") == false)
@@ -158,14 +158,14 @@ bool ASPSolver::GenTester(char *prevAS, TSmallStr *rule)
         printf("Get degree fail!\n");
         return false;
     }
-    if (GenTester(degree, rule) == false)
+    if (GenTester(degree) == false)
     {
         return false;
     }
     return true;
 }
 //---------------------------------------------------------------------------
-bool ASPSolver::GenTester(vector<int> &degree, TSmallStr *rule)
+bool ASPSolver::GenTester(vector<int> &degree)
 {
     if (degree.size() != numRule)
     {
@@ -189,7 +189,7 @@ bool ASPSolver::GenTester(vector<int> &degree, TSmallStr *rule)
         return false;
     }
     prefFile.Close();
-    insert += *rule;
+    // insert += *rule;
     insert += buffer;
     if (prefFile.Open(tester) == 0)
     {
@@ -378,19 +378,23 @@ bool ASPSolver::CalcuDegree(char *buffer)
 //---------------------------------------------------------------------------
 int ASPSolver::GetBetterAS()
 {
-    if (!ranked)
+    // if (!ranked)
+    // {
+    //     if (GenTester(degree, &prefString) == false)
+    //     {
+    //         return -1;
+    //     }
+    // }
+    // else
+    // {
+    //     if (GenTester(degree, &rankPrefString) == false)
+    //     {
+    //         return -1;
+    //     }
+    // }
+    if (GenTester(degree) == false)
     {
-        if (GenTester(degree, &prefString) == false)
-        {
-            return -1;
-        }
-    }
-    else
-    {
-        if (GenTester(degree, &rankPrefString) == false)
-        {
-            return -1;
-        }
+        return -1;
     }
     if (genCommand(tester, testResult) == false)
     {
@@ -720,7 +724,7 @@ int ASPSolver::GetDisOptNew(bool dis, vector<bool> &givenAS, int dist, float *ti
         return 0;
     }
     TTimeInterval timer;
-    timer.Start();
+    // timer.Start();
     TSmallStr insert;
     insert.Set(":- diff(X), option(X), given(X), atom(X).\n"
                ":- diff(X), option(X), not given(X), not atom(X).\n"
@@ -768,7 +772,8 @@ int ASPSolver::GetDisOptNew(bool dis, vector<bool> &givenAS, int dist, float *ti
     }
 
     ASPSolver disGen;
-    if (disGen.Init(inputGen, inputPref, false, NULL, "./data2/") == false)
+    // if (disGen.Init(inputGen, inputPref, false, NULL, "./data2/") == false)
+    if (disGen.Init(inputGen, inputPref, false, NULL, "./tmp2/") == false)
     {
         return -1;
     }
@@ -837,7 +842,8 @@ int ASPSolver::GetDisOptNew(bool dis, vector<bool> &givenAS, int dist, float *ti
         return -1;
     }
     file.Close();
-    timer.Pause();
+    // timer.Pause();
+    timer.Start();
     int result = disGen.GetFirstOptAS();
     if (result == -1)
     {
