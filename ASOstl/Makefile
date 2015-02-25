@@ -1,6 +1,6 @@
 CXX     = g++
 RE2C	= ./bin/re2c
-OS     ?= WIN
+OS      = WIN
 
 CFLAGS	= -Wall -O2 -fpermissive -I./lib/
 LDFLAGS	= 
